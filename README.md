@@ -9,10 +9,6 @@ A JavaScript plugin for snazzy background particle systems. Includes an optional
     
     particleground(document.getElementById('your-element');
 
-jQuery:
-
-    $('#your-element').particleground();
-
 ## Options
 
 Options can be set by passing an options object to the constructor.
@@ -20,13 +16,6 @@ Options can be set by passing an options object to the constructor.
 Here is an example of setting the color of the particle system dots and lines:
 
     particleground(document.getElementById('your-element'), {
-        dotColor: '#ff0000',
-        lineColor: '#ff0000'
-    });
-
-jQuery:
-
-    $('#your-element').particleground({
         dotColor: '#ff0000',
         lineColor: '#ff0000'
     });
@@ -123,10 +112,6 @@ Particleground exposes public methods which can be used to interact with your Pa
 
     var pg = particleground(document.getElementById('your-element');
     pg.pause(); 
-
-jQuery:
-
-    $('#your-element').particlegound('pause');
 
 ### pause()
 
